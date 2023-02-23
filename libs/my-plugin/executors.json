@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "executors": {
+    "echo": {
+      "implementation": "./src/executors/echo/executor",
+      "schema": "./src/executors/echo/schema.json",
+      "description": "echoes the options to the console"
+    },
+    "echo1": {
+      "implementation": "./src/executors/echo1/executor",
+      "schema": "./src/executors/echo1/schema.json",
+      "description": "echo1 executor"
+    },
+    "chainable-executor": {
+      "implementation": "./src/executors/chainable-executor/executor",
+      "schema": "./src/executors/chainable-executor/schema.json",
+      "description": "chainable-executor executor"
+    }
+  }
+}

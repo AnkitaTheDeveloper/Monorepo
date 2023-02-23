@@ -1,0 +1,2 @@
+const variable = "<%= projectName %>";
+console.log(`This app has been generated through custom plugin generator`)
